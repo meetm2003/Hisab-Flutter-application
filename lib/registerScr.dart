@@ -35,7 +35,6 @@ class RegisterScr extends StatelessWidget {
         'username': _usernameController.text,
         'phone': _phonenumController.text,
         'email': _emailController.text,
-        'password': _loginpasswordController.text,
         'pin': _pinController.text,
         'money_save': _moneysaveController.text,
         'salary': _salaryController.text,

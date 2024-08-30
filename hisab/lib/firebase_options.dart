@@ -47,28 +47,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBZwXcXVUCcATpfqJnJ8lgcqVkpq9JuxZQ',
-    appId: '1:794653707199:web:e92640d6802870f817ef0a',
-    messagingSenderId: '794653707199',
-    projectId: 'hisab-7e78a',
-    authDomain: 'hisab-7e78a.firebaseapp.com',
-    storageBucket: 'hisab-7e78a.appspot.com',
+    apiKey: 'AIzaSyB7H1HMAdZudhnSoGj3U5L2sSQoWAU6QWo',
+    appId: '1:35197378133:web:e68841ef4063670241bedc',
+    messagingSenderId: '35197378133',
+    projectId: 'hisab-b34fb',
+    authDomain: 'hisab-b34fb.firebaseapp.com',
+    storageBucket: 'hisab-b34fb.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAz3vffALcAv7utFf9PF23vGke9Mw34zn0',
-    appId: '1:794653707199:android:4aa013b6b51d9cd617ef0a',
-    messagingSenderId: '794653707199',
-    projectId: 'hisab-7e78a',
-    storageBucket: 'hisab-7e78a.appspot.com',
+    apiKey: 'AIzaSyASX8E7QftmASXonz9L52U3ubeJxdphAjE',
+    appId: '1:35197378133:android:17da2346729c36b441bedc',
+    messagingSenderId: '35197378133',
+    projectId: 'hisab-b34fb',
+    storageBucket: 'hisab-b34fb.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD2xUID3fTrCZDyCG_GrAOhhZEuphnxdgE',
-    appId: '1:794653707199:ios:f4578672126195c417ef0a',
-    messagingSenderId: '794653707199',
-    projectId: 'hisab-7e78a',
-    storageBucket: 'hisab-7e78a.appspot.com',
+    apiKey: 'AIzaSyBiCPfk_WGfQbf38Vx_hVxOHNhJ7av98jw',
+    appId: '1:35197378133:ios:81d54fe1cd218cc141bedc',
+    messagingSenderId: '35197378133',
+    projectId: 'hisab-b34fb',
+    storageBucket: 'hisab-b34fb.appspot.com',
     iosBundleId: 'com.example.hisab',
   );
 }

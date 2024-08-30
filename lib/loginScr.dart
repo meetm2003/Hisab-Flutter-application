@@ -1,7 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hisab/custom_textfield.dart';
-import 'package:hisab/hisabHomeScreen.dart';
 import 'package:hisab/registerScr.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -19,13 +18,9 @@ class LoginScreen extends StatelessWidget {
         email: email,
         password: password,
       );
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => const Hisabhomescreen(),
-        ),
-      );
+      // Navigate to the next screen
     } catch (e) {
+      // Handle login error
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Login failed: $e')),
       );
