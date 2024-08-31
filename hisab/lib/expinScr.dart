@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hisab/expensesScr.dart';
 import 'package:hisab/hisabHomeScreen.dart';
 import 'package:hisab/incomeScr.dart';
+import 'package:hisab/profileScr.dart';
 
 class ExpensesIncomeScreen extends StatelessWidget {
   const ExpensesIncomeScreen({super.key});
@@ -27,7 +28,12 @@ class ExpensesIncomeScreen extends StatelessWidget {
             IconButton(
               icon: const Icon(Icons.person),
               onPressed: () {
-                // Add your logic for the profile button here
+                 Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const ProfileScreen(),
+                ),
+              );
               },
             ),
           ],
