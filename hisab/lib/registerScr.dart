@@ -14,7 +14,7 @@ class RegisterScr extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _loginpasswordController = TextEditingController();
   final TextEditingController _pinController = TextEditingController();
-  final TextEditingController _moneysaveController = TextEditingController();
+  final TextEditingController _moneyhaveController = TextEditingController();
   final TextEditingController _salaryController = TextEditingController();
   final TextEditingController _salarydateController = TextEditingController();
 
@@ -37,7 +37,7 @@ class RegisterScr extends StatelessWidget {
         'email': _emailController.text,
         'password': _loginpasswordController.text,
         'pin': _pinController.text,
-        'money_save': _moneysaveController.text,
+        'money_you_have': _moneyhaveController.text,
         'salary': _salaryController.text,
         'salary_date': _salarydateController.text,
       });
@@ -148,7 +148,7 @@ class RegisterScr extends StatelessWidget {
             CustomTextField(
               hint: 'How much Money you have per day?',
               color: Colors.lightBlue,
-              controller: _moneysaveController,
+              controller: _moneyhaveController,
               keyboardType: TextInputType.number,
               inputFormatters: [FilteringTextInputFormatter.digitsOnly],
               validator: (value) {
