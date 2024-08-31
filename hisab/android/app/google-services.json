@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35197378133",
+    "project_id": "hisab-b34fb",
+    "storage_bucket": "hisab-b34fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35197378133:android:17da2346729c36b441bedc",
+        "android_client_info": {
+          "package_name": "com.example.hisab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASX8E7QftmASXonz9L52U3ubeJxdphAjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
