@@ -54,7 +54,7 @@ class LoginScreen extends StatelessWidget {
             const SizedBox(
                 height: 32),
             CustomTextField(
-              hint: 'Username',
+              hint: 'Email',
               color: Colors.lightBlue,
               controller: _usernameController,
             ),

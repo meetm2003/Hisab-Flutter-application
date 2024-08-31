@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:hisab/profileScr.dart';
 import 'package:hisab/services.dart';
 import 'package:hisab/trans.dart';
 import 'package:intl/intl.dart';
@@ -97,7 +98,14 @@ class HisabhomescreenState extends State<Hisabhomescreen> {
           ),
           IconButton(
             icon: const Icon(Icons.person),
-            onPressed: () {},
+            onPressed: () {
+               Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const ProfileScreen(),
+                ),
+              );
+            },
           ),
         ],
       ),
